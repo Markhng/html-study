@@ -5,7 +5,8 @@ then
 else
 	git commit -m $1
 fi
-if [ $? -eq 0 ]
+if [ $? -ne 1 ]
 then
-	git push html-study.r master
+	git push origin master
 fi
+
