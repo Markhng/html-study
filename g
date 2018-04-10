@@ -7,5 +7,5 @@ else
 fi
 if [ $? -eq 0 ]
 then
-	git push html-study.r html-study.b
+	git push html-study.r master
 fi
