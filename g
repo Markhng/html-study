@@ -1,7 +1,7 @@
 git add .
 if [ $# -eq 0 ]
 then
-    git commit -m "debug"
+    git commit -m "debug" 
 else
 	git commit -m $1
 fi
